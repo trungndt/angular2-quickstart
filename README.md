@@ -3,7 +3,7 @@ Original tutorial: https://angular.io/docs/ts/latest/quickstart.html
 
 Step to build and run an angular 2 app:
 
-# prerequisite: install nodejs & npm
+<h1>prerequisite: install nodejs & npm</h1>
 - Download & install nodejs newest version (https://nodejs.org/en/download/)
 - Open Windows console (Window + R, type "cmd" and press Enter)
 - In console, type "npm install npm -g" to install npm:
@@ -30,3 +30,27 @@ Step to build and run an angular 2 app:
     $ npm install
 
 This command will create whole folder "node_modules".
+
+# build & run project
+## A. Using basic npm & javascript config
+
+## B. Using gulpfile.js
+
+If you want to use gulp in your project, then you don't need to add "systemjs.config.js" file, but "gulpfile.js" instead. (See gulp file above)
+Reference: https://css-tricks.com/gulp-for-beginners/#article-header-id-5
+
+1/  Install gulp
+
+    `$ npm install gulp --save-dev`
+
+2/ Install necessary gulp libraries
+
+    `$ npm install --save-dev gulp-webserver`
+    
+    `$ npm install --save-dev gulp-typescript`
+    
+    `$ npm install --save-dev gulp-sourcemaps`
+    
+3/ Run gulp
+    `$ gulp`
+
