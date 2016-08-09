@@ -1,14 +1,14 @@
 {
   "name": "angular2-quickstart",
   "version": "1.0.0",
-  "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "lite": "lite-server",
-    "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
-  },
+  // "scripts": {
+  //   "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+  //   "lite": "lite-server",
+  //   "postinstall": "typings install",
+  //   "tsc": "tsc",
+  //   "tsc:w": "tsc -w",
+  //   "typings": "typings"
+  // },
   "license": "ISC",
   "dependencies": {
     "@angular/common": "2.0.0-rc.4",
@@ -32,6 +32,10 @@
   "devDependencies": {
     "concurrently": "^2.0.0",
     "gulp": "^3.9.1",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "gulp-webserver": "^0.9.1",
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
